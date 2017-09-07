@@ -2,11 +2,17 @@
 * @Author: Administrator
 * @Date:   2017-09-07 17:31:42
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-09-07 17:39:13
+* @Last Modified time: 2017-09-07 19:50:08
 */
+*{
+	margin:0;
+	padding:0;
+}
 h1{
 	color:red;
 	text-align:center;
+	width:100%;
+	background-color:#959595
 }
 h3{
 	color:pink;
@@ -14,4 +20,15 @@ h3{
 }
 div{
 	text-align:center;
+}
+span{
+	float:right;
+	background-color:#938F8F;
+}
+div img{
+	padding:0 10px 10px 0;
+	cursor:pointer;
+}
+div img:hover{
+	opacity:0.6;
 }
